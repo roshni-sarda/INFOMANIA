@@ -1,0 +1,35 @@
+*{
+    font-family: 'Lato',sans-serif;
+}
+body{
+   background-image:url("images/yo.jpeg");
+   background-position: center;
+}
+.login-div{
+    margin: 130px auto;
+    width:250px;
+    background-color:whitesmoke;
+    padding:30px 68px 200px 68px;
+    border-radius:20px;
+
+}
+.logo{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    margin:0 auto;
+    margin-bottom: 10px;
+    
+}
+.logo img{
+    width: 100%;
+}
+.title, .sub-title{
+    text-align: center;
+    color: #505050;
+
+}
+.title{
+    
+}
