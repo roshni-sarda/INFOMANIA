@@ -55,10 +55,10 @@ color: #005a8d;
   padding:10px 20px 5px 35px;  
   border:solid 2px gray;
   border-radius:25px;
-  background-color:whitesmoke;
+  
 }
 .password{
-    padding-top:2px;
+    padding-top: 15px;
 }
 .form svg{
     height:17px;
