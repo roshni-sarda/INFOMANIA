@@ -2,7 +2,10 @@
     font-family: 'Lato',sans-serif;
 }
 body{
-background-color: #022E57;
+    background-color:#022E57;
+   
+    background-size: cover;
+   
    overflow: hidden;
    
 
@@ -34,7 +37,7 @@ background-color: #022E57;
     text-align: center;
 font-weight: bolder;
 font-size: 30px;
-color: #005a8d;
+color:#022E57;
 }
 
 .sub-title{
@@ -52,7 +55,7 @@ color: #005a8d;
 }
 .form input{
   font-size:18px;
-  padding:10px 20px 5px 35px;  
+  padding:10px 20px 5px 15px;  
   border:solid 2px gray;
   border-radius:25px;
   
@@ -78,4 +81,11 @@ button.signin-btn{
     background-color:#005a8d;
     color: whitesmoke;
 
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color:cyan;
 }

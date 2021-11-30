@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+              /* border: solid red 2px;            */
+
+}
+body{
+    font-family:'Lato',sans-serif;
+     columns:#333; 
+     line-height: 1.6em; 
+     background-color: #FF96AD;  
+   
+}
+ul{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+h1
+{
+    font-weight: 300;
+    line-height: 1.2em;
+      margin:0px auto;  
+     margin-left:-3px; 
+
+}
+p{
+     margin: 10px 0px; 
+}
+img{
+    width: 100%;
+
+}
+.navbar{
+     background-color:#022E57 ; 
+    color: #FFF5FD;
+    height:70px;
+      position: fixed;  
+    width:100%;
+     z-index:40; 
+     top:0;
+}
+.logo{
+    height: 70px;
+    width:70px;
+    margin-left:2px;
+    padding-right:2px;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.navbar a{
+    color: #FFF5FD;
+    padding:15px;
+    margin: 0 5px;
+}
+.navbar a:hover {
+    border-bottom:2px #FFF5FD solid;
+    border-radius: 5px;
+}
+.container{
+    margin: auto 10px;
+    margin-right:20px;
+    overflow:none;
+    padding: 0 10px;
+    }
+    .flex{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        height: 100%;
+    }
+    ul{
+        padding: 5px;
+        margin-left:10px;
+    }
+   #bee{
+       box-sizing: border-box;
+       margin-top:20vh;
+        /* height:max-content;  */
+   }
+
+   .aarya{
+       margin-top:32vh;
+       /* margin-left:8vw; */
+
+       /* margin-right:10vh; */
+       display:flex;
+       z-index:40; 
+    
+   }
+   .aarya div{
+
+padding: 20px;
+border-radius: 15px;
+background-color:#C2FFF9;
+color: #022E57;
+font-size: 20px;
+
+   }
+   .books,
+   .chapter,
+   .pdf-notes,
+   .yt-link,
+   .papers{
+   width: 20%;
+     margin:0 8px;
+     line-height:1.6em;
+      
+   }
+   h1{
+       text-decoration:underline #022E57;
+       text-align: center;
+       font-weight:bolder;
+       font-size:25px;
+
+   }
+   a{
+       color: #022E57;
+   }
+   .aarya a:hover{
+       text-decoration:underline #022E57;
+       background-color: antiquewhite;
+
+   }
+  .aarya ul{
+       margin-top:5vh;
+       list-style-type:square;
+       text-align: left;
+       padding-left:5px;
+    
+   }
+   
+.chapter ul{
+    list-style-type:decimal ;
+    margin-top:1vh;
+    text-align:left;
+}
+.books ul{
+    margin-top:5vh;
+    text-align:left;
+}
+.pdf-notes ul{
+    margin-top:5vh;
+}
+.papers ul{
+    margin-top:1vh;
+}
+#ec-1{
+    height: 70vh;
+}
