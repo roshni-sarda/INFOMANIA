@@ -173,4 +173,16 @@ color:#022E57;
 color: #022E57;
 }
 
-
+ a{
+    color: #022E57;
+}
+#fe a:hover{
+    background-color: antiquewhite;
+}
+.footer{
+    text-align: center;
+    color:#022E57;
+    font-size:10px;
+    font-weight: bold;
+    
+}

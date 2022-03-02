@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-                /* border: solid red 2px;         */
+                 /* border: solid red 2px;         */
 
 }
 body{
@@ -83,7 +83,7 @@ img{
         padding: 5px;
         margin-left:10px;
     }
-   #bee{
+   #ec-2{
        box-sizing: border-box;
        /* border: solid greenyellow 2px; */
        display: flex;
@@ -97,7 +97,7 @@ img{
 
   
    
-   #bee div{
+   #ec-2 div{
 /* border:3px solid brown; */
 margin:1vh;
 padding:5vh 3vh;
@@ -131,13 +131,13 @@ font-size: 20px;
    a{
        color: #022E57;
    }
-   #bee a:hover{
+   #ec-2 a:hover{
        text-decoration:underline #022E57;
        background-color: antiquewhite;
 
    }
-  #bee ul{
-       margin-top:5vh;
+  #ec-2 ul{
+       margin-top:0vh;
        list-style-type:square;
        text-align: left;
        padding-left:5px;
@@ -160,7 +160,7 @@ font-size: 20px;
 .papers ul{
     margin-top:1vh;
 }
-#ec-1{
+#ed{
     box-sizing: border-box;
     /* border: solid greenyellow 2px; */
     display: flex;
@@ -174,7 +174,7 @@ font-size: 20px;
 
 
 
-#ec-1 div{
+#ed div{
 /* border:3px solid brown; */
 margin:1vh;
 padding:5vh 3vh;
@@ -208,12 +208,12 @@ h1{
 a{
     color: #022E57;
 }
-#ec-1 a:hover{
+#ed a:hover{
     text-decoration:underline #022E57;
     background-color: antiquewhite;
 
 }
-#ec-1 ul{
+#ed ul{
     margin-top:2vh;
     margin-bottom:2vh;
     list-style-type:square;
@@ -238,7 +238,7 @@ a{
 .papers ul{
  margin-top:1vh;
 }
-#ep-1{
+#em-2{
     box-sizing: border-box;
     /* border: solid greenyellow 2px; */
     display: flex;
@@ -252,7 +252,7 @@ a{
 
 
 
-#ep-1 div{
+#em-2 div{
 /* border:3px solid brown; */
 margin:1vh;
 padding:5vh 3vh;
@@ -286,12 +286,94 @@ h1{
 a{
     color: #022E57;
 }
-#ep-1 a:hover{
+#em-2 a:hover{
     text-decoration:underline #022E57;
     background-color: antiquewhite;
 
 }
-#ep-1 ul{
+#em ul{
+    margin-top:2vh;
+    margin-bottom:2vh;
+    list-style-type:square;
+    text-align: left;
+    padding-left:5px;
+}
+#em-2 .chapter ul{
+    margin-top:-1vh;
+    list-style-type:square;
+    text-align: left;
+    padding-left:5px;
+    /* border: springgreen solid 2px; */
+ 
+}
+
+
+.books ul{
+ padding-top:5vh;
+ /* margin-top:10vh; */
+ text-align:left;
+}
+.pdf-notes ul{
+ margin-top:5vh;
+}
+.papers ul{
+ margin-top:1vh;
+}
+
+#ep-2{
+    box-sizing: border-box;
+    /* border: solid greenyellow 2px; */
+    display: flex;
+  background-color:#FF96AD;
+  padding:15vh 3vh;
+  border-radius: 15px;
+  margin-top:25vh;
+  height: 95vh;
+  
+}
+
+
+
+#ep-2 div{
+/* border:3px solid brown; */
+margin:1vh;
+padding:5vh 3vh;
+border-radius: 15px;
+background-color:#C2FFF9;
+color: #022E57;
+font-size: 20px;
+
+}
+.books,
+.chapter,
+.pdf-notes,
+.yt-link,
+.papers{
+width: 20%;
+  margin:0 8px;
+  line-height:1.6em;
+   
+}
+h1{
+    text-decoration:underline #022E57;
+    text-align: center;
+    font-weight:bolder;
+    font-size:25px;
+}
+.papers h1{
+ padding:-2px;
+ margin-top:-3vh ;
+}
+
+a{
+    color: #022E57;
+}
+#ep-2 a:hover{
+    text-decoration:underline #022E57;
+    background-color: antiquewhite;
+
+}
+#ep-2 ul{
     margin-top:2vh;
     margin-bottom:2vh;
     list-style-type:square;
@@ -317,7 +399,7 @@ a{
  margin-top:1vh;
 }
 
-#em-1{
+#cp{
     box-sizing: border-box;
     /* border: solid greenyellow 2px; */
     display: flex;
@@ -331,7 +413,7 @@ a{
 
 
 
-#em-1 div{
+#cp div{
 /* border:3px solid brown; */
 margin:1vh;
 padding:5vh 3vh;
@@ -365,12 +447,12 @@ h1{
 a{
     color: #022E57;
 }
-#em-1 a:hover{
+#cp a:hover{
     text-decoration:underline #022E57;
     background-color: antiquewhite;
 
 }
-#em-1 ul{
+#cp ul{
     margin-top:2vh;
     margin-bottom:2vh;
     list-style-type:square;
@@ -395,8 +477,7 @@ a{
 .papers ul{
  margin-top:1vh;
 }
-
-#mech{
+#pce{
     box-sizing: border-box;
     /* border: solid greenyellow 2px; */
     display: flex;
@@ -410,7 +491,7 @@ a{
 
 
 
-#mech div{
+#pce div{
 /* border:3px solid brown; */
 margin:1vh;
 padding:5vh 3vh;
@@ -444,12 +525,12 @@ h1{
 a{
     color: #022E57;
 }
-#mech a:hover{
+#pce a:hover{
     text-decoration:underline #022E57;
     background-color: antiquewhite;
 
 }
-#mech ul{
+#pce ul{
     margin-top:2vh;
     margin-bottom:2vh;
     list-style-type:square;
@@ -457,6 +538,7 @@ a{
     padding-left:5px;
  
 }
+
 
 .chapter ul{
  list-style-type:decimal ;
